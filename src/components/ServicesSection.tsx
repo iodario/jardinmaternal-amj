@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { Baby, Puzzle, GraduationCap, HeartPulse, ShieldCheck, Home, MessageSquareHeart } from "lucide-react";
 
 const services = [
@@ -13,8 +12,27 @@ const services = [
 ];
 
 const ServicesSection = () => (
-  <section id="servicios" className="py-20 bg-primary-lighter">
-    <div className="container">
+  <section id="servicios" className="relative py-20 bg-primary-lighter overflow-hidden">
+    {/* Top wave */}
+    <div className="absolute top-0 left-0 w-full leading-none">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" className="w-full h-[50px] md:h-[70px]">
+        <path
+          d="M0,80 C240,20 480,100 720,50 C960,0 1200,70 1440,30 L1440,0 L0,0 Z"
+          fill="hsl(100, 33%, 98%)"
+        />
+      </svg>
+    </div>
+    {/* Bottom wave */}
+    <div className="absolute bottom-0 left-0 w-full leading-none">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" className="w-full h-[50px] md:h-[70px]">
+        <path
+          d="M0,30 C360,90 720,10 1080,60 C1260,80 1380,40 1440,50 L1440,100 L0,100 Z"
+          fill="hsl(145, 40%, 92%)"
+        />
+      </svg>
+    </div>
+
+    <div className="container relative z-10">
       <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-center mb-12">
         Nuestra Propuesta Educativa
       </h2>

@@ -1,10 +1,11 @@
 import { Instagram, Phone, MapPin, Clock } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-primary py-12">
     <div className="container grid sm:grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/90 text-sm">
       <div>
-        <h4 className="font-heading font-bold text-lg text-primary-foreground mb-3">🌱 Alicia Moreau de Justo</h4>
+        <img src={logo} alt="Jardín Maternal Alicia Moreau de Justo" className="h-14 w-auto mb-3 brightness-0 invert" />
         <p className="leading-relaxed">Jardín Maternal en Mar del Plata. Acompañamos los primeros pasos con amor y profesionalismo.</p>
       </div>
       <div className="space-y-2">
