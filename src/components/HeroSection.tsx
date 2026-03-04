@@ -82,7 +82,7 @@ const HeroSection = () => {
             variant="outline"
             className="rounded-full text-base font-heading font-bold bg-card/80 hover:bg-card border-border shadow-soft"
           >
-            <a href="https://wa.me/5492235000000" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+5492236883855" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-5 w-5" /> Consultar por WhatsApp
             </a>
           </Button>

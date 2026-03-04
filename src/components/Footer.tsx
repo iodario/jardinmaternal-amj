@@ -10,28 +10,38 @@ const Footer = () => (
       </div>
       <div className="space-y-2">
         <h5 className="font-heading font-bold text-primary-foreground mb-2">Ubicación</h5>
-        <p className="flex items-center gap-2"><MapPin className="h-4 w-4" /> Calle Ejemplo 1234, Mar del Plata</p>
+        <p className="flex items-center gap-2"><MapPin className="h-4 w-4" /> San Martín 2583, 5to Piso, Mar del Plata</p>
       </div>
       <div className="space-y-2">
-        <h5 className="font-heading font-bold text-primary-foreground mb-2">Horarios</h5>
-        <p className="flex items-center gap-2"><Clock className="h-4 w-4" /> Lunes a Viernes 8:00 – 17:00</p>
-        <p className="flex items-center gap-2"><Phone className="h-4 w-4" /> (223) 500-0000</p>
+        <h5 className="font-heading font-bold text-primary-foreground mb-2">Edades</h5>
+        <p className="flex items-center gap-2"><Clock className="h-4 w-4" /> 3 Meses a 3 Años</p>
+        <p className="flex items-center gap-2"><Phone className="h-4 w-4" /> (223) 6883855</p>
       </div>
       <div className="space-y-2">
         <h5 className="font-heading font-bold text-primary-foreground mb-2">Seguinos</h5>
         <a
-          href="https://instagram.com"
+          href="hhttps://www.instagram.com/jardinmaternal.amj/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 hover:text-primary-foreground transition-colors"
         >
-          <Instagram className="h-5 w-5" /> @jardinsemillitas
+          <Instagram className="h-5 w-5" /> @jardinmaternal.amj
         </a>
       </div>
     </div>
-    <div className="container mt-8 pt-6 border-t border-primary-foreground/20 text-center text-primary-foreground/60 text-xs">
-      © {new Date().getFullYear()} Jardín Maternal Alicia Moreau de Justo. Todos los derechos reservados.
-    </div>
+   
+
+  <div className="mt-12 border-t border-primary-foreground/20 bg-primary/90 text-primary-foreground">
+  <div className="container py-6 text-center">
+    <p className="text-sm font-medium tracking-wide">
+      © 2026 Hecho por <span className="font-semibold">Dario Turchi</span>
+    </p>
+    <p className="text-xs opacity-80 mt-1">
+      DaroDev
+    </p>
+  </div>
+</div>
+
   </footer>
 );
 
