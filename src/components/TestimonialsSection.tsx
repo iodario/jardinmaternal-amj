@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   { text: "Desde el primer día sentimos la calidez y el profesionalismo del equipo. Nuestro hijo va feliz todos los días.", name: "María G." },
-  { text: "La comunicación constante nos da mucha tranquilidad. Recomendamos Semillitas a todas las familias.", name: "Lucas y Florencia" },
+  { text: "La comunicación constante nos da mucha tranquilidad. Recomendamos Alicia Moreau de Justo a todas las familias.", name: "Lucas y Florencia" },
   { text: "Un espacio hermoso, seguro y lleno de propuestas que estimulan a los chicos. Estamos muy agradecidos.", name: "Carolina P." },
 ];
 
