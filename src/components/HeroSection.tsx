@@ -34,14 +34,20 @@ const HeroSection = () => {
           className="absolute inset-0"
         >
           <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(${slides[current]})`, filter: "blur(1px) contrast(0.9) brightness(0.95)" }}
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url(${slides[current]})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              filter: "brightness(0.95)",
+            }}
           />
         </motion.div>
       </AnimatePresence>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/50 via-primary/35 to-background/80" style={{ opacity: 0.7 }} />
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/30 via-primary/20 to-background/60" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto pt-20">

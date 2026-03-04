@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -17,8 +18,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <a href="#inicio" className="font-heading text-xl md:text-2xl font-extrabold text-primary">
-          🌱 Jardín Alicia Moreau de Justo
+        <a href="#inicio" className="flex items-center gap-2">
+          <img src={logo} alt="Jardín Maternal Alicia Moreau de Justo" className="h-12 md:h-16 w-auto" />
         </a>
 
         {/* Desktop nav */}
