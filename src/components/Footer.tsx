@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className="bg-primary py-12">
     <div className="container grid sm:grid-cols-2 md:grid-cols-4 gap-8 text-primary-foreground/90 text-sm">
       <div>
-        <h4 className="font-heading font-bold text-lg text-primary-foreground mb-3">🌱 Semillitas</h4>
+        <h4 className="font-heading font-bold text-lg text-primary-foreground mb-3">🌱 Alicia Moreau de Justo</h4>
         <p className="leading-relaxed">Jardín Maternal en Mar del Plata. Acompañamos los primeros pasos con amor y profesionalismo.</p>
       </div>
       <div className="space-y-2">
@@ -29,7 +29,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="container mt-8 pt-6 border-t border-primary-foreground/20 text-center text-primary-foreground/60 text-xs">
-      © {new Date().getFullYear()} Jardín Maternal Semillitas. Todos los derechos reservados.
+      © {new Date().getFullYear()} Jardín Maternal Alicia Moreau de Justo. Todos los derechos reservados.
     </div>
   </footer>
 );

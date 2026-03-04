@@ -18,7 +18,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#inicio" className="font-heading text-xl md:text-2xl font-extrabold text-primary">
-          🌱 Jardín Semillitas
+          🌱 Jardín Alicia Moreau de Justo
         </a>
 
         {/* Desktop nav */}

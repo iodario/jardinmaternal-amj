@@ -36,7 +36,7 @@ const AboutSection = () => (
           Sobre Nuestro Jardín
         </h2>
         <p className="text-muted-foreground leading-relaxed mb-6">
-          En <strong>Semillitas</strong> acompañamos a cada niño y niña en sus primeros años de vida con
+          En <strong>Alicia Moreau de Justo</strong> acompañamos a cada niño y niña en sus primeros años de vida con
           una propuesta pedagógica basada en el afecto, el juego y la exploración. Nuestro equipo de
           profesionales capacitados trabaja en un ambiente seguro, cálido y estimulante, manteniendo una
           comunicación constante con las familias.
