@@ -19,7 +19,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#inicio" className="flex items-center gap-2">
-          <img src={logo} alt="Jardín Maternal Alicia Moreau de Justo" className="h-12 md:h-16 w-auto" />
+          <img src={logo} alt="Jardín Maternal Alicia Moreau de Justo" className="h-20 md:h-28 w-auto rounded-full object-cover" />
         </a>
 
         {/* Desktop nav */}

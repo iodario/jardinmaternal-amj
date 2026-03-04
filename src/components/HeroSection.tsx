@@ -2,10 +2,10 @@ import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
-import heroImg from "@/assets/hero-nursery.jpg";
+import heroImg from "@/assets/hero-nursery.png";
 import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
+import gallery2 from "@/assets/gallery-2.png";
+import gallery4 from "@/assets/gallery-4.png";
 
 const slides = [heroImg, gallery1, gallery2, gallery4];
 

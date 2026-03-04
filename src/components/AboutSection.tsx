@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImg from "@/assets/gallery-3.jpg";
+import aboutImg from "@/assets/gallery-3.png";
 import { MapPin, Clock, Users, CalendarCheck } from "lucide-react";
 
 const details = [
@@ -17,12 +17,12 @@ const AboutSection = () => (
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="rounded-2xl overflow-hidden shadow-card"
+        className="rounded-2xl overflow-hidden shadow-card max-w-md"
       >
         <img
           src={aboutImg}
           alt="Espacio de lectura del jardín maternal"
-          className="w-full h-[400px] object-cover"
+          className="w-full h-auto block"
         />
       </motion.div>
 
