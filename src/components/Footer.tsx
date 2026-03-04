@@ -20,7 +20,7 @@ const Footer = () => (
       <div className="space-y-2">
         <h5 className="font-heading font-bold text-primary-foreground mb-2">Seguinos</h5>
         <a
-          href="hhttps://www.instagram.com/jardinmaternal.amj/"
+          href="https://www.instagram.com/jardinmaternal.amj/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 hover:text-primary-foreground transition-colors"
