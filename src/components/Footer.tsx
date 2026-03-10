@@ -34,11 +34,12 @@ const Footer = () => (
   <div className="mt-12 border-t border-primary-foreground/20 bg-primary/90 text-primary-foreground">
   <div className="container py-6 text-center">
     <p className="text-sm font-medium tracking-wide">
-      © 2026 Hecho por <span className="font-semibold">Dario Turchi</span>
+      © 2026 Desarrollado por <p className="font-semibold text-xs opacity-80 mt-1">
+      <a href="https://www.linkedin.com/in/dario-turchi/">Dario Turchi</a>
     </p>
-    <p className="text-xs opacity-80 mt-1">
-      DaroDev
+      
     </p>
+    
   </div>
 </div>
 
